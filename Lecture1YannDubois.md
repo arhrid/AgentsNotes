@@ -190,6 +190,3 @@ Tensor parallel: split single matrix across GPUs and use partial sum
 Models are huge => not every datapoint needs to go through every parameter;
 MoE (Mixture of Experts): use a selector layer to have less "active" parameter => same FLOPs more parameters
 
-
-
-
