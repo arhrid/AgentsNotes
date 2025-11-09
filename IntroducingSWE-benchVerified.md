@@ -38,7 +38,7 @@ Dataset construction
 #Include many samples with diff. 1-4 hours and >4 hours as possible, and randomly sample remainder to reach 500 samples for SWE-bench Verified
 
 <figure>
-  <img src="./images/Figure2.png" alt="Figure 2" width="450">
+  <img src="./assets/Figure2.png" alt="Figure 2" width="450">
   <figcaption>Figure 2: Annotation Results of SWE-bench Verified</figcaption>
 </figure>
 Takeaways

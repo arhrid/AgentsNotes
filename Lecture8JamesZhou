@@ -1,0 +1,125 @@
+# AI Agents to Automate Science by James Zhou
+
+1. Virtual Lab 2. Paper2Agent 3. Agents4Science
+
+## Virtual Lab
+Interdisciplinary AI scientists that work with human scientists on challenging, open-ended
+research
+
+Agent Creation (ex. GPT-4o as the base model)
+Team meeting (agents can have group meetings or 1 on 1 meetings for subtasks)
+Individual meeting (tools in sandbox environment)
+
+
+Principal Investigator (PI), Immunologist, Machine Learning Specialist,
+Scientific Critic
+All group members discuss 
+
+Antibodies are commonly used as binders under many pharma and biotech companies.
+Nanobodies only found in a few animals like camels. (cousins of antibodies)
+
+Virtual Lab has increased efficiency due to having parallel meetings.
+Agents can discuss 5x in paralled. PI takes transcipt of all meetings for summary.
+
+Computational Biologist, Scientific Critic, Principal Investigator
+Computational Biologist (28.1%): Does most of talking -> come up with plan for designing nanobodies
+Scientific Critic (26.2%):
+Principal Investigator(20.9%):
+Machine Learning Specialist(17.7%): Do all coding for other agents, implements algorithms in Python or other languages 
+Immunologist(5.9%): 
+Human Researcher(1.3%): Don't talk too much; provide high-level guidance (ex. create binders, money constraints)
+
+
+## Virtual Lab School of self-improving AI scientist
+1.Choose Topics for Agents
+2.Self Generate Queries
+3.Search PMC & Select Papers
+
+Go to PubMed, download article, read articles, SFT to update model parameters, 
+perform next-token prediction, testing mechanism ...,
+Then teacher agents generate quizzes to see how student agents perform. 
+
+Start with o1 for an agent. Agents become more specialized through task progression.
+
+### Ex. Virtual Lab designs nanobodies for recent COVID Variants
+Agents pass 3d structure from AlphaFold into Rosetta (physics model)
+
+Agents are able to rapidly reduce design space in to 92 nanobody candidates for binders.
+
+<figure>
+  <img src="./assets/AgentSchool.png" alt="Figure 1" width="450">
+  <figcaption>Figure 1: Agent Collaboration</figcaption>
+</figure>
+
+ Graphs show enchanced binding. 
+Bottom Red curve: Recent Human-denerated nanobody, with JN.1
+Red curve: Virtual Lab designed new nanobody ..
+Two blue curves (Wuhan RBD)
+Two red curves (JN.1 RBD)
+
+Learnings: Multiple agents w/ diverse expertise better than single agent
+Helpful to provide agent with memory and sandbox to safely execute tools
+
+## Paper2Agent
+Difficult for humans to gather best insights from a paper...
+For papers that involve code, tough for non-experts to understanding main points of paper.
+
+So PaperAgent can help readers/users to implement methods of paper into their own papers.
+
+
+Scanpy agent
+User: Perform standard quality control on my single-cell data:
+data.h5ad
+Agent generates analysis. Human experts also analyze same datasets & figures.
+
+Google DeepMind released AlphaGenome (find mutations in genome)
+Look for causal genes associated with LDL cholesterol.
+
+### Agent-agent collaboration -> new discoveries 
+Agents can collaborate and generate new insights. 
+No need for human authors to setup meeting and send emails together.
+
+ADHD agents & AlphaGenome Agent collaborated to find new splicing error associated with ADHD risk
+ADHD GWAS paper
+
+Discussion: Easier for readers to user the methods + data from the paper
+since Paper2Agent converts passive papers into interactive agents
+
+## Open Conference of AI Agents for Science 2025
+How creative are AI scientist agents?
+How should human researchers collaborate with AI agents?
+How good are LLMs at reviewing papers?
+
+LLMs and agents that people used:
+Peopel used Claude, gPT-4/5, Gemini,
+DeepResearch(OpenAI), ClaudeCode, Qwen, KIMI-K2, Deepsekk-V3
+
+Mostly AI with some human inolvement
+For Accepted papers (more human inolvement) compared to papers from general submissions
+
+More human involvement in hypothesisd evelopment & experimental design
+
+More reliance on AI for data analysis and writing
+
+GPT-5 most conservative reviewer. (lowest scores assigned to paper)
+Gemini is the most positive reviewer (higher scores assigned to paper)
+Claude Sonnet most balanced reviewer.
+
+There is an Automated Reference Verification through usage of an 
+AI Agent. If references can't be verified, users will see warning on OpenReview.
+
+Interesting example of Agentic Science Conference
+Simulating Two-sided Job Marketplaces with AI Agents
+
+Agent based modelling of the two-sided market places is an interesting topic according to economics nobel researcher
+
+
+<figure>
+  <img src="./assets/ComparisonAgents.png" alt="Figure 2" width="450">
+  <figcaption>Figure 2: Comparison of AI agents versus Human complementarity</figcaption>
+</figure>
+
+
+
+
+
